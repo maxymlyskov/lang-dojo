@@ -1,15 +1,15 @@
-import React from 'react'
-import Box from '@mui/material/Box'
-import Card from '@mui/material/Card'
-import Divider from '@mui/material/Divider'
-import Link from '@mui/material/Link'
-import Grid from '@mui/material/Grid'
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import Divider from "@mui/material/Divider";
+import Grid from "@mui/material/Grid";
+import Link from "@mui/material/Link";
+import React from "react";
 
 //IMPORTING SVG'S AND IMAGES
-import photo_card from '../../assets/photo_card.png'
-import plus from '../../assets/plus.svg'
-import Wrapper from '../Wrapper'
-import styles from './styles'
+import photo_card from "../../assets/photo_card.png";
+import plus from "../../assets/plus.svg";
+import Wrapper from "../Wrapper";
+import styles from "./styles";
 
 const FeaturedCards = () => {
   return (
@@ -27,33 +27,33 @@ const FeaturedCards = () => {
                 <Card sx={styles.card}>
                   <Box sx={styles.blockPhoto}>
                     <Box
-                      component='img'
+                      component="img"
                       src={photo_card}
-                      sx={{ width: '100%' }}
+                      sx={{ width: "100%" }}
                     />
                     <Box sx={styles.language}>language</Box>
                   </Box>
-                  <Box sx={{ textAlign: 'center', m: '24px 0' }}>
+                  <Box sx={{ textAlign: "center", m: "24px 0" }}>
                     Language Writing
                   </Box>
                   <Divider sx={styles.divider} />
                   <Box sx={styles.footerCard}>
                     <Box sx={styles.price}>$100</Box>
                     <Link sx={styles.link}>
-                      <Box component='span' sx={{ mr: '5px' }}>
+                      <Box component="span" sx={{ mr: "5px" }}>
                         enroll now
                       </Box>
-                      <Box component='img' src={plus} />
+                      <Box component="img" src={plus} />
                     </Link>
                   </Box>
                 </Card>
               </Grid>
-            )
+            );
           })}
         </Grid>
       </Wrapper>
     </Box>
-  )
-}
+  );
+};
 
-export default FeaturedCards
+export default FeaturedCards;
