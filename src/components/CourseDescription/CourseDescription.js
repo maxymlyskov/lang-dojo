@@ -1,6 +1,6 @@
-import Typography from '@mui/material/Typography'
-import Box from '@mui/material/Box'
-import styles from './styles'
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import styles from "./styles";
 
 const CourseDescription = () => {
   return (
@@ -16,7 +16,7 @@ const CourseDescription = () => {
         Risus commodo viverra maecenas accumsan.
       </Typography>
     </Box>
-  )
-}
+  );
+};
 
-export default CourseDescription
+export default CourseDescription;
