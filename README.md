@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Learning school with no boredom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://lang-dojo.vercel.app/
 
 ## Available Scripts
 
